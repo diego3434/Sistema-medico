@@ -139,7 +139,7 @@ public class Paciente {
 
 
     public void mostrarReporte() {
-
+        System.out.println("***************DATOS MEDICOS***********" );
         System.out.println("Nombre: " + getNombreCompleto());
         System.out.println("ID: " + getIdentificacion());
         System.out.println("Seguro: " + getTipoSeguro());
